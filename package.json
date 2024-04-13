@@ -2,12 +2,14 @@
   "name": "dexery-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Chisconike.github.io/Derexy",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export"
+    "export": "next export",
+    "deploy": "npm run build && gh-pages -d out"
   },
   "dependencies": {
     "classnames": "^2.5.1",
