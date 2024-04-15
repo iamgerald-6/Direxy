@@ -7,6 +7,7 @@ import cupImage from "@/assets/cupImage.svg";
 import Star from "@/assets/icons/Star.svg";
 import ServiceForm from "../components/Body/ServiceForm";
 import Button from "../components/Button";
+import VideoComponent from "../components/VideoComponent";
 
 const page = () => {
   return (
@@ -39,12 +40,12 @@ const page = () => {
           <div className="flex flex-col items-center">
             <div className="flex w-[100%] gap-7 relative mt-10">
               <div className="">
-                <video
-                  src={require("@/public/ServiceVid2.mp4")}
-                  autoPlay
-                  loop
-                  className="border-[20px] border-primary-300 w-[70%] h-[90vh] object-cover "
+                <VideoComponent
+                  videoPathName={require("@/public/ServiceVid2.mp4")}
+                  className="border-[20px] border-primary-300 w-[70%] h-[90vh]
+                object-cover "
                 />
+
                 <h3 className="mt-4 text-primary-200 font-cdMedium">
                   Samsung A105 -
                   <span className="text-primary-400">
@@ -66,12 +67,12 @@ const page = () => {
                   </p>
                 </div>
                 <div className="">
-                  <video
-                    src={require("@/public/ServiceVid2.mp4")}
-                    autoPlay
-                    loop
-                    className="border-[20px] border-secondary-300 w-[42vw] h-[90vh] object-cover "
+                  <VideoComponent
+                    videoPathName={require("@/public/ServiceVid2.mp4")}
+                    className="border-[20px] border-secondary-300 w-[42vw]
+                  h-[90vh] object-cover "
                   />
+
                   <h3 className="mt-4 text-primary-200 font-cdMedium">
                     Samsung A105 -
                     <span className="text-primary-400">
@@ -83,12 +84,12 @@ const page = () => {
             </div>
             <div className="flex gap-7">
               <div className="mt-20">
-                <video
-                  src={require("@/public/ServiceVid2.mp4")}
-                  autoPlay
-                  loop
-                  className="border-[20px] border-secondary-100 w-[70vw] h-[90vh] object-cover"
+                <VideoComponent
+                  videoPathName={require("@/public/ServiceVid2.mp4")}
+                  className="border-[20px] border-secondary-100 w-[70vw] h-[90vh]
+                object-cover  "
                 />
+
                 <h3 className="mt-4 text-primary-200 font-cdMedium">
                   Samsung -
                   <span className="text-primary-400">
@@ -97,11 +98,9 @@ const page = () => {
                 </h3>
               </div>
               <div className=" mt-96">
-                <video
-                  src={require("@/public/ServiceVid1.mp4")}
-                  autoPlay
-                  loop
-                  className=" border-[20px] w-[60vw] h-[60vh] object-cover  border-secondary-200 "
+                <VideoComponent
+                  videoPathName={require("@/public/ServiceVid1.mp4")}
+                  className="border-[20px] w-[60vw] h-[60vh] object-cover  border-secondary-200"
                 />
                 <h3 className=" text-primary-200 font-sfBold mt-4">
                   Viva-
@@ -122,3 +121,4 @@ const page = () => {
 };
 
 export default page;
+// ;

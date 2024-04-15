@@ -1,12 +1,12 @@
 import AboutEmpower from "../components/Body/AboutEmpower";
-import BodyCard from "../components/Body/BodyCard";
-import EmpowerList from "../components/Body/EmpowerList";
+
 import EmpoweringBody from "../components/Body/EmpoweringBody";
 import Service from "../components/Body/Service";
 import Sponsers from "../components/Body/Sponsers";
 import BackgroundImage from "../components/MainNav/BackgroundImage";
-import Image from "next/image";
+
 import NewsLetter from "../components/NewsLetter";
+import VideoComponent from "../components/VideoComponent";
 
 const page = () => {
   return (
@@ -44,11 +44,8 @@ const page = () => {
         <section className="mt-32 px-0 ">
           <div className="bg-primary-150 flex gap-6 ">
             <div className="w-[43%]">
-              <video
-                src={require("@/public/AboutEmpower.mp4")}
-                autoPlay
-                loop
-                className=""
+              <VideoComponent
+                videoPathName={require("@/public/AboutEmpower.mp4")}
               />
             </div>
 
