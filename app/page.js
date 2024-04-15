@@ -1,6 +1,6 @@
 import Image from "next/image";
 import BackgroundImage from "./components/MainNav/BackgroundImage";
-import Body from "./components/Body/Body";
+
 // import CardRender from "./components/Body/CardRender";
 import BodyCard from "./components/Body/BodyCard";
 import EmpoweringBody from "./components/Body/EmpoweringBody";
@@ -12,7 +12,7 @@ import Picture4 from "@/assets/Picture (3).svg";
 
 import ClientImage from "@/assets/clientImage.svg";
 import Service from "./components/Body/Service";
-import Faith from "@/assets/Faith.svg";
+import Faith from "@/assets/faith.svg";
 import Briony from "@/assets/briony.svg";
 import Bread from "@/assets/Bread.svg";
 import Blog1 from "@/assets/blog1.svg";

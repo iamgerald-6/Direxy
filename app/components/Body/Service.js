@@ -1,6 +1,6 @@
-import Icon1 from "@/assets/icon6.svg";
-import Icon2 from "@/assets/icon 7.svg";
-import Icon3 from "@/assets/icon8.svg";
+import Icon1 from "@/assets/Icon6.svg";
+import Icon2 from "@/assets/Icon 7.svg";
+import Icon3 from "@/assets/Icon8.svg";
 import ServiceRender from "./ServiceRender";
 const Service = () => {
   const serviceData = [
