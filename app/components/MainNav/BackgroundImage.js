@@ -1,13 +1,6 @@
 "use client";
-// import Image from "next/image";
-// import HomeVideo from "";
 
-// import { useRouter } from "next/navigation";
 const BackgroundImage = ({ videoPath, href }) => {
-  //   const router = useRouter();
-  //   const Home = router.pathname === "/";
-
-  //   console.log("Current Path:", router.pathname);
   return (
     <>
       <div className={`${href ? "/" : href ? "/About" : hidden} `}>
@@ -24,11 +17,3 @@ const BackgroundImage = ({ videoPath, href }) => {
 };
 
 export default BackgroundImage;
-// <Video
-//         className=""
-//         loop
-//         controls={false}
-//         autoplay
-//         src={HomeVideo}
-//       />
-//     </div>

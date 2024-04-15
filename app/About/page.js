@@ -44,9 +44,7 @@ const page = () => {
         <section className="mt-32 px-0 ">
           <div className="bg-primary-150 flex gap-6 ">
             <div className="w-[43%]">
-              <VideoComponent
-                videoPathName={require("@/public/AboutEmpower.mp4")}
-              />
+              <VideoComponent videoPathName="/AboutEmpower.mp4" />
             </div>
 
             <div className="w-[53%]">
