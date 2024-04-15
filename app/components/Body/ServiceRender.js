@@ -8,7 +8,7 @@ const ServiceRender = ({ service }) => {
       </h1>
 
       <div className="mt-9">
-        {/* <hr className="mt-4" /> */}
+        
         <p className=" border-t border-primary-400 py-4 text-xs text-primary-400 font-sfRegular">
           {service.description}
         </p>
