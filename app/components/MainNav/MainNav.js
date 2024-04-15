@@ -13,6 +13,7 @@ const MainNav = () => {
         <nav className="flex justify-between px-5 items-center py-3 ">
           <Link href="/">
             <Image
+              className="w-[12vw] h-auto"
               width="150"
               height="150"
               src={Logo}

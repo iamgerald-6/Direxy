@@ -7,7 +7,13 @@ const Footer = () => {
   return (
     <footer className="bg-primary-150 text-primary-600 mt-24 px-10 py-3 pt-6">
       <div className="flex justify-evenly items-center text-sm">
-        <Image width="200" height="200" src={Logo} alt="logo image" />
+        <Image
+          className="w-[12vw] h-auto"
+          width="200"
+          height="200"
+          src={Logo}
+          alt="logo image"
+        />
         <div className="mt-6">
           <h3 className="text-primary-200 text-lg font-sfBold">Office</h3>
           <ul>
@@ -47,9 +53,9 @@ const Footer = () => {
             CopyRight &copy; Breadman.All Rights Reserved Digital-mojo.
           </p>
           <div className="flex mt-4">
-            <Image src={Facebook} alt="facebook icon" />
-            <Image src={Twitter} alt="twitter icon" />
-            <Image src={Youtube} alt="youtube icon" />
+            <Image src={Facebook} alt="facebook icon" priority />
+            <Image src={Twitter} alt="twitter icon" priority />
+            <Image src={Youtube} alt="youtube icon" priority />
           </div>
         </div>
       </div>

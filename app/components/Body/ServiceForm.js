@@ -1,5 +1,5 @@
 import Image from "next/image";
-import WorkWithUs from "@/assets/cupImage.svg";
+import WorkWithUs from "@/assets/CupImage.png";
 import Button from "../Button";
 
 const ServiceForm = () => {
@@ -20,7 +20,7 @@ const ServiceForm = () => {
           height="300"
           src={WorkWithUs}
           alt="work with us image"
-          className="mt-8"
+          className="mt-8 w-[25vw] h-auto"
         />
       </div>
       <div className="flex flex-col gap-5 font-sfRegular ">

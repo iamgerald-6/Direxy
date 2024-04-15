@@ -12,6 +12,7 @@ const CardRender = ({ card }) => {
           src={card.icon}
           alt="Card Image"
           priority
+          className="w-10 h-auto"
         />
       </div>
 

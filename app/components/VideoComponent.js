@@ -7,6 +7,7 @@ const VideoComponent = ({ className, videoPathName, ...rest }) => {
       src={videoPathName}
       autoPlay
       loop
+      controls={false}
       className={videoClasses}
       {...rest}
     />

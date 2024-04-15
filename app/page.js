@@ -1,29 +1,26 @@
 import Image from "next/image";
 import BackgroundImage from "./components/MainNav/BackgroundImage";
-
-// import CardRender from "./components/Body/CardRender";
+import LBanner from "@/assets/LBanner Image.png";
+import Absolute from "@/assets/Absolute.png";
 import BodyCard from "./components/Body/BodyCard";
 import EmpoweringBody from "./components/Body/EmpoweringBody";
 import EmpowerList from "./components/Body/EmpowerList";
-import Picture1 from "@/assets/Picture.svg";
-import Picture2 from "@/assets/Picture (1).svg";
-import Picture3 from "@/assets/Picture (2).svg";
-import Picture4 from "@/assets/Picture (3).svg";
-
-import ClientImage from "@/assets/clientImage.svg";
+import Brand from "@/assets/Brand Identity.png";
+import WebUiImage from "@/assets/WebUiImage.png";
+import Client from "@/assets/ClientImage.png";
 import Service from "./components/Body/Service";
-import Faith from "@/assets/faith.svg";
-import Briony from "@/assets/briony.svg";
-import Bread from "@/assets/Bread.svg";
-import Blog1 from "@/assets/blog1.svg";
-import Blog2 from "@/assets/blog2.svg";
-import Blog3 from "@/assets/blog3.svg";
+import Faith from "@/assets/faith.png";
+import Briony from "@/assets/Briony.png";
+import Bread from "@/assets/Bread.png";
+import A05Blog from "@/assets/A05Blog.png";
+import LBannerBlog from "@/assets/LBannerBlog.png";
+import TwitterTrend from "@/assets/TwitterTrend.png";
 import NewsLetter from "./components/NewsLetter";
 
 export default function Home() {
   return (
     <>
-      <BackgroundImage href="/" videoPath={require("@/public/HomePage.mp4")} />
+      <BackgroundImage href="/" videoPath="/HomePage.mp4" />
       <main>
         <div className="px-20 ">
           <h1 className="text-primary-200 text-6xl mt-52 font-cdBold">
@@ -78,23 +75,23 @@ export default function Home() {
                     LBanner & LPM show
                   </h3>
                   <Image
-                    className="mt-4"
-                    width="450"
-                    height="450"
-                    src={Picture1}
+                    className="mt-4 w-[35vw] h-auto"
+                    width="700"
+                    height="700"
+                    src={LBanner}
                     loading="lazy"
                     alt="LBanner Image"
                   />
                 </div>
                 <div>
-                  <h3 className=" mt-16 text-primary-300 font-sfBold">
+                  <h3 className=" mt-24 text-primary-300 font-sfBold">
                     Website UI work
                   </h3>
                   <Image
-                    className="absolute top-24 mt-3"
-                    width="450"
-                    height="450"
-                    src={Picture2}
+                    className="absolute top-32 mt-3 w-[35vw] h-auto"
+                    width="700"
+                    height="700"
+                    src={WebUiImage}
                     loading="lazy"
                     alt="Website UI Image"
                   />
@@ -106,24 +103,24 @@ export default function Home() {
                     Absolute Creativity
                   </h3>
                   <Image
-                    className="mt-4"
-                    width="450"
-                    height="450"
-                    src={Picture3}
+                    className="mt-4 w-[35vw] h-auto"
+                    width="700"
+                    height="700"
+                    src={Absolute}
                     loading="lazy"
                     alt="Creativity Image"
                   />
                 </div>
-                <div className=" mt-72">
+                <div className=" mt-80">
                   <h3 className="mt-64 text-primary-300 font-sfBold">
                     Brand Identity
                   </h3>
                   <Image
-                    className="mt-4"
-                    width="450"
-                    height="450"
+                    className="mt-4 w-[35vw] h-auto"
+                    width="700"
+                    height="700"
                     loading="lazy"
-                    src={Picture4}
+                    src={Brand}
                     alt="Brand Image"
                   />
                 </div>
@@ -137,7 +134,13 @@ export default function Home() {
         <section className="mt-32 px-0 ">
           <div className="bg-primary-150 flex gap-6 ">
             <div>
-              <Image width="570" height="570" src={ClientImage} alt="Image" />
+              <Image
+                className="w-[43vw] h-auto"
+                width="700"
+                height="700"
+                src={Client}
+                alt="Image"
+              />
             </div>
 
             <div className="w-[53%]">
@@ -170,7 +173,7 @@ export default function Home() {
             <div className="grid grid-cols-4 gap-4  mt-10">
               <div>
                 <Image
-                  className=""
+                  className="w-auto h-auto"
                   width="450"
                   height="450"
                   src={Faith}
@@ -242,7 +245,7 @@ export default function Home() {
                   className=""
                   width="450"
                   height="450"
-                  src={Blog1}
+                  src={A05Blog}
                   loading="lazy"
                   alt="Blog1 Image"
                 />
@@ -261,7 +264,7 @@ export default function Home() {
                   className=""
                   width="450"
                   height="450"
-                  src={Blog2}
+                  src={LBannerBlog}
                   loading="lazy"
                   alt="Blog2 Image"
                 />
@@ -281,7 +284,7 @@ export default function Home() {
                   className=""
                   width="450"
                   height="450"
-                  src={Blog3}
+                  src={TwitterTrend}
                   loading="lazy"
                   alt="Blog3 Image"
                 />

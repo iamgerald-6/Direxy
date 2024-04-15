@@ -1,21 +1,16 @@
 import BodyCard from "../components/Body/BodyCard";
 import BackgroundImage from "../components/MainNav/BackgroundImage";
 import Image from "next/image";
-// import ServiceImage1 from "@/assets/ServiceImage.svg";
-// import ServiceImage2 from "@/assets/ServiceImage2.svg";
-import cupImage from "@/assets/cupImage.svg";
+
 import Star from "@/assets/icons/Star.svg";
 import ServiceForm from "../components/Body/ServiceForm";
-import Button from "../components/Button";
+
 import VideoComponent from "../components/VideoComponent";
 
 const page = () => {
   return (
     <div>
-      <BackgroundImage
-        href="/"
-        videoPath={require("@/public/ServicePage.mp4")}
-      />
+      <BackgroundImage href="/" videoPath="/ServicePage.mp4" />
       <main>
         <div className="px-20 ">
           <h1 className="text-primary-200 text-6xl mt-52 font-cdBold">
@@ -41,7 +36,7 @@ const page = () => {
             <div className="flex w-[100%] gap-7 relative mt-10">
               <div className="">
                 <VideoComponent
-                  videoPathName={require("@/public/ServiceVid2.mp4")}
+                  videoPathName="/ServiceVid2.mp4"
                   className="border-[20px] border-primary-300 w-[70%] h-[90vh]
                 object-cover "
                 />
@@ -57,7 +52,13 @@ const page = () => {
               <div className="absolute right-0 top-[20%]">
                 <div className="pb-28">
                   <div className="flex gap-4">
-                    <Image width=" 16" height="16" src={Star} alt="star icon" />
+                    <Image
+                      className="w-5 h-auto"
+                      width=" 12"
+                      height="12"
+                      src={Star}
+                      alt="star icon"
+                    />
                     <h4 className=" text-sm">Featured Projects</h4>
                   </div>
                   <p className="mt-5 text-sm text-primary-400">
@@ -68,7 +69,7 @@ const page = () => {
                 </div>
                 <div className="">
                   <VideoComponent
-                    videoPathName={require("@/public/ServiceVid2.mp4")}
+                    videoPathName="/ServiceVid2.mp4"
                     className="border-[20px] border-secondary-300 w-[42vw]
                   h-[90vh] object-cover "
                   />
@@ -85,7 +86,7 @@ const page = () => {
             <div className="flex gap-7">
               <div className="mt-20">
                 <VideoComponent
-                  videoPathName={require("@/public/ServiceVid2.mp4")}
+                  videoPathName="/ServiceVid2.mp4"
                   className="border-[20px] border-secondary-100 w-[70vw] h-[90vh]
                 object-cover  "
                 />
@@ -99,7 +100,7 @@ const page = () => {
               </div>
               <div className=" mt-96">
                 <VideoComponent
-                  videoPathName={require("@/public/ServiceVid1.mp4")}
+                  videoPathName="/ServiceVid1.mp4"
                   className="border-[20px] w-[60vw] h-[60vh] object-cover  border-secondary-200"
                 />
                 <h3 className=" text-primary-200 font-sfBold mt-4">

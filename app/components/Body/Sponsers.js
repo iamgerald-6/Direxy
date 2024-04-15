@@ -17,10 +17,30 @@ const Sponsers = () => {
         <Image src={Client4} alt="Sponsor Image" />
       </div>
       <div className="me-20 grid grid-cols-4 items-center">
-        <Image width="250" src={Client8} alt="Sponsor Image" />
-        <Image width="250" src={Frame} alt="Sponsor Image" />
-        <Image width="170" src={Image1} alt="Sponsor Image" />
-        <Image width="250" src={Image2} alt="Sponsor Image" />
+        <Image
+          className="w-[20vw] h-auto"
+          width="250"
+          src={Client8}
+          alt="Sponsor Image"
+        />
+        <Image
+          className="w-[20vw] h-auto"
+          width="250"
+          src={Frame}
+          alt="Sponsor Image"
+        />
+        <Image
+          className="w-[20vw] h-auto"
+          width="170"
+          src={Image1}
+          alt="Sponsor Image"
+        />
+        <Image
+          className="w-[20vw] h-auto"
+          width="250"
+          src={Image2}
+          alt="Sponsor Image"
+        />
       </div>
     </>
   );

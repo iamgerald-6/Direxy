@@ -11,7 +11,7 @@ import VideoComponent from "../components/VideoComponent";
 const page = () => {
   return (
     <div>
-      <BackgroundImage href="/" videoPath={require("@/public/AboutPage.mp4")} />
+      <BackgroundImage href="/" videoPath="/AboutPage.mp4" />
       <main>
         <div className="px-20 ">
           <h1 className="text-primary-200 text-6xl mt-52 font-cdBold">
