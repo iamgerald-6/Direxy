@@ -10,33 +10,33 @@ import Image2 from "@/assets/image 2.svg";
 const Sponsers = () => {
   return (
     <>
-      <div className="grid grid-cols-4 items-center">
-        <Image src={Samsung} alt="Samsung image" />
-        <Image src={Stovoo} alt="Sponsor Image" />
-        <Image src={Hype} alt="Sponsor Image" />
-        <Image src={Client4} alt="Sponsor Image" />
+      <div className="flex justify-center gap-5">
+        <Image className="w-[20vw] h-auto" src={Samsung} alt="Samsung image" />
+        <Image className="w-[20vw] h-auto" src={Stovoo} alt="Sponsor Image" />
+        <Image className="w-[20vw] h-auto" src={Hype} alt="Sponsor Image" />
+        <Image className="w-[20vw] h-auto" src={Client4} alt="Sponsor Image" />
       </div>
-      <div className="me-20 grid grid-cols-4 items-center">
+      <div className="gap-10 flex justify-center">
         <Image
-          className="w-[20vw] h-auto"
+          className="w-[12vw] h-auto"
           width="250"
           src={Client8}
           alt="Sponsor Image"
         />
         <Image
-          className="w-[20vw] h-auto"
+          className="w-[12vw] h-auto"
           width="250"
           src={Frame}
           alt="Sponsor Image"
         />
         <Image
-          className="w-[20vw] h-auto"
+          className="w-[12vw] h-auto"
           width="170"
           src={Image1}
           alt="Sponsor Image"
         />
         <Image
-          className="w-[20vw] h-auto"
+          className="w-[12vw] h-auto"
           width="250"
           src={Image2}
           alt="Sponsor Image"

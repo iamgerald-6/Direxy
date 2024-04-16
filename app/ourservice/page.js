@@ -13,11 +13,11 @@ const page = () => {
       <BackgroundImage href="/" videoPath="/ServicePage.mp4" />
       <main>
         <div className="px-20 ">
-          <h1 className="text-primary-200 text-6xl mt-52 font-cdBold">
+          <h1 className="text-primary-200 text-[70px] leading-none mt-72 font-cdBold">
             Niche Platform
             <br /> Advertising
           </h1>
-          <p className="text-primary-200 text-sm mt-7 font-sfSemiBold">
+          <p className="text-primary-200 text-[16px] mt-7 font-sfSemiBold">
             With global footprint we are proud to have impacted business
             worldwide, and
             <br /> our passion for innovation drive us to create an even
@@ -25,8 +25,7 @@ const page = () => {
             <br />
             realm.
           </p>
-          <section className="mt-56 ">
-            {/* <Body /> */}
+          <section className="mt-72 ">
             <BodyCard />
           </section>
         </div>
@@ -59,9 +58,11 @@ const page = () => {
                       src={Star}
                       alt="star icon"
                     />
-                    <h4 className=" text-sm">Featured Projects</h4>
+                    <h4 className=" text-sm font-sfRegular">
+                      Featured Projects
+                    </h4>
                   </div>
-                  <p className="mt-5 text-sm text-primary-400">
+                  <p className="mt-5 text-sm text-primary-400 font-sfRegular">
                     Highlights of cases that we passionately <br />
                     built with forward thinking clients and
                     <br /> friends over the year

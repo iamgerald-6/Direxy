@@ -14,11 +14,11 @@ const page = () => {
       <BackgroundImage href="/" videoPath="/AboutPage.mp4" />
       <main>
         <div className="px-20 ">
-          <h1 className="text-primary-200 text-6xl mt-52 font-cdBold">
+          <h1 className="text-primary-200 text-[70px] leading-none mt-64 font-cdBold">
             How The Mojo
             <br /> Magic Started
           </h1>
-          <p className="text-primary-200 text-sm mt-7 font-sfSemiBold">
+          <p className="text-primary-200 text-[16px] mt-7 font-sfSemiBold">
             With global footprint we are proud to have impacted business
             worldwide, and
             <br /> our passion for innovation drive us to create an even
@@ -27,7 +27,7 @@ const page = () => {
             realm.
           </p>
 
-          <section className="mt-52 flex  gap-16 ">
+          <section className=" mt-80 flex  gap-16 ">
             <EmpoweringBody
               title={`Kicking Off Digital Mojo\n with 2 inspired women`}
               detail1={`Founded 2012,our digital agency\n has been a trailblazer in the ever-evolving\ndigital landscape. With unwavering\n dedication and creative prowess,we have\n catered to over\n 2000 clients globally, spanning`}

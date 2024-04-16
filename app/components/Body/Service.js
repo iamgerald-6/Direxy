@@ -22,7 +22,7 @@ const Service = () => {
       id: 3,
       title: "Finalization",
       description:
-        "This is the conclusion stage, where the project is refined, reviewed, and approved for delivery.",
+        "This is the conclusion stage, where the project is refined, reviewed, and approved for delivery Lorem ipsum Lorem ipsum  .                     ",
       icon: Icon3,
     },
   ];

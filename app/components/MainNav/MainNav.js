@@ -10,10 +10,10 @@ const MainNav = () => {
     <>
       <header className="bg-transparent relative z-20">
         {/* <BackgroundImage href="/" /> */}
-        <nav className="flex justify-between px-5 items-center py-2 ">
+        <nav className="flex justify-between px-5 items-center py-[3px] ">
           <Link href="/">
             <Image
-              className="w-[10vw] h-auto"
+              className="w-[8vw] h-auto"
               width="150"
               height="150"
               src={Logo}
@@ -29,7 +29,7 @@ const MainNav = () => {
             <Link href="#">Contact</Link>
           </ul>
           <div>
-            <Button className="bg-primary-300 text-primary-100 flex text-sm font-sfSemiBold  items-center justify-center px-3 ">
+            <Button className="bg-primary-300 text-primary-100 flex text-sm font-sfBold   items-center justify-center px-3 ">
               <Image
                 width="18"
                 height="18"
