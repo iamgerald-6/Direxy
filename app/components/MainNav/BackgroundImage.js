@@ -8,9 +8,9 @@ const BackgroundImage = ({ videoPath, href }) => {
           src={videoPath}
           autoPlay
           loop
-          className="-z-10 absolute top-0 left-0 w-full h-full object-cover"
+          className="-z-10 absolute top-0 left-0 lg:min-w-full lg:min-h-full object-cover"
         />
-        <div className=" -z-10 absolute inset-0  bg-black opacity-50"></div>
+        <div className=" -z-10 absolute inset-0 h-[125vh] w-full bg-black opacity-50"></div>
       </div>
     </>
   );

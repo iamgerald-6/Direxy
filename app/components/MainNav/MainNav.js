@@ -10,10 +10,10 @@ const MainNav = () => {
     <>
       <header className="bg-transparent relative z-20">
         {/* <BackgroundImage href="/" /> */}
-        <nav className="flex justify-between px-5 items-center py-3 ">
+        <nav className="flex justify-between px-5 items-center py-2 ">
           <Link href="/">
             <Image
-              className="w-[12vw] h-auto"
+              className="w-[10vw] h-auto"
               width="150"
               height="150"
               src={Logo}

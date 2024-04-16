@@ -16,19 +16,21 @@ import A05Blog from "@/assets/A05Blog.png";
 import LBannerBlog from "@/assets/LBannerBlog.png";
 import TwitterTrend from "@/assets/TwitterTrend.png";
 import NewsLetter from "./components/NewsLetter";
+import Horizontal from "./components/Horizontal";
 
 export default function Home() {
   return (
     <>
       <BackgroundImage href="/" videoPath="/HomePage.mp4" />
+      {/* <Horizontal direction={-1400} height="40rem"> */}
       <main>
         <div className="px-20 ">
-          <h1 className="text-primary-200 text-6xl mt-52 font-cdBold">
+          <h1 className="text-primary-200 text-7xl mt-60 font-cdBold">
             Elevate Your Digital
             <br /> Presence With GenMz
             <br /> Marketing Experience
           </h1>
-          <p className="text-primary-200 text-sm mt-7 font-sfSemiBold">
+          <p className="text-primary-200 text-[16px] mt-7 font-sfSemiBold">
             With global footprint we are proud to have impacted business
             worldwide, and
             <br /> our passion for innovation drive us to create an even
@@ -36,8 +38,7 @@ export default function Home() {
             <br />
             realm.
           </p>
-          <section className="mt-56 ">
-            {/* <Body /> */}
+          <section className="mt-72 ">
             <BodyCard />
           </section>
           <section className="mt-52 flex  gap-16 ">
@@ -251,7 +252,7 @@ export default function Home() {
                 />
                 <div className=" mt-3 flex flex-col">
                   <h3 className="font-sfBold">AO5 Blog</h3>
-                  <span className="text-primary-400 text-xs mt-4 font-sfRegular">
+                  <span className="text-primary-400 text-sm mt-4 font-sfRegular">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </span>
                   <span className="text-primary-300 text-sm font-semibold mt-4 font-sfSemiBold">
@@ -270,7 +271,7 @@ export default function Home() {
                 />
                 <div className=" mt-3 flex flex-col">
                   <h3 className=" font-sfBold">LBannecr Blog</h3>
-                  <span className="text-primary-400 text-xs mt-4 font-sfRegular">
+                  <span className="text-primary-400 text-sm mt-4 font-sfRegular">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </span>
                   <span className="text-primary-300 text-sm font-sfSemiBold mt-4">
@@ -292,7 +293,7 @@ export default function Home() {
                   <h3 className="font-sfBold">
                     Twitter Trend & TikTok strategy
                   </h3>
-                  <span className="text-primary-400 text-xs mt-4 font-sfRegular">
+                  <span className="text-primary-400 text-sm mt-4 font-sfRegular">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </span>
                   <span className="text-primary-300 text-sm font-semibold mt-4">
@@ -304,6 +305,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+      {/* </Horizontal> */}
     </>
   );
 }

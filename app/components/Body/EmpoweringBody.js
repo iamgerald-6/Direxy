@@ -6,7 +6,7 @@ const EmpoweringBody = ({ title, detail1, detail2 }) => {
     <div className=" w-[70%]">
       <h1 className="text-5xl text-primary-200 font-cdBold ">{title}</h1>
       <hr className="border-primary-400 w-[6vw] mt-12" />
-      <div className="text-sm text-primary-400 flex gap-4 mt-10 font-sfRegular w-[100%]">
+      <div className="text-sm text-primary-400 flex gap-4 mt-10 font-sfRegular w-[90%]">
         <p className=" whitespace-normal">{detail1}</p>
         <p className=" whitespace-normal">{detail2}</p>
       </div>
