@@ -12,7 +12,7 @@ const page = () => {
   return (
     <div>
       <BackgroundImage href="/" videoPath="/AboutPage.mp4" />
-      <main>
+      <main className="relative z-20">
         <div className="px-20 ">
           <h1 className="text-primary-200 text-[70px] leading-none mt-64 font-cdBold">
             How The Mojo
@@ -69,12 +69,12 @@ const page = () => {
           </div>
         </section>
         <section className="mt-36 px-20 ">
-          <h2 className=" font-cdSemiBold text-xl text-center pb-3 text-primary-300">
+          <h2 className=" font-cdSemiBold text-xl text-center pb-10 text-primary-300">
             Joining Forces for Success
           </h2>
           <Sponsers />
         </section>
-        <section className="mt-40 px-20">
+        <section className="mt-40 px-20 pb-8">
           <NewsLetter />
         </section>
       </main>

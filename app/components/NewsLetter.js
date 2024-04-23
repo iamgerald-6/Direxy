@@ -5,7 +5,8 @@ const NewsLetter = () => {
     <div className="w-[100%] flex flex-col items-center relative">
       <input
         type="email"
-        className="border-b font-sfSemiBold border-primary-300 py-3 w-[100%] outline-none bg-transparent text-primary-200 mt-8"
+        label="email"
+        className="border-b font-sfSemiBold border-primary-300 py-3 w-[100%] outline-none bg-transparent text-primary-200 mt-8 flex-wrap md:flex-nowrap gap-4"
         placeholder="Enter Your email Address"
       />
       <Image

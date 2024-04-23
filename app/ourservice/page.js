@@ -11,7 +11,7 @@ const page = () => {
   return (
     <div>
       <BackgroundImage href="/" videoPath="/ServicePage.mp4" />
-      <main>
+      <main className="relative z-20">
         <div className="px-20 ">
           <h1 className="text-primary-200 text-[70px] leading-none mt-72 font-cdBold">
             Niche Platform
@@ -30,13 +30,13 @@ const page = () => {
           </section>
         </div>
         <section className="mt-52 px-10">
-          <h1 className="text-4xl font-cdBold">Works</h1>
+          <h1 className="text-4xl font-cdBold px-20">Works</h1>
           <div className="flex flex-col items-center">
-            <div className="flex w-[100%] gap-7 relative mt-10">
+            <div className="flex w-[100%]  gap-14 px-20 relative mt-10">
               <div className="">
                 <VideoComponent
                   videoPathName="/ServiceVid2.mp4"
-                  className="border-[20px] border-primary-300 w-[70%] h-[90vh]
+                  className="border-[20px] border-primary-300 w-[39vw] h-[90vh]
                 object-cover "
                 />
 
@@ -48,8 +48,8 @@ const page = () => {
                 </h3>
               </div>
 
-              <div className="absolute right-0 top-[20%]">
-                <div className="pb-28">
+              <div className="absolute right-[5.7%] top-[18%]">
+                <div className="pb-24">
                   <div className="flex gap-4">
                     <Image
                       className="w-5 h-auto"
@@ -58,11 +58,9 @@ const page = () => {
                       src={Star}
                       alt="star icon"
                     />
-                    <h4 className=" text-sm font-sfRegular">
-                      Featured Projects
-                    </h4>
+                    <h4 className="  font-sfRegular">Featured Projects</h4>
                   </div>
-                  <p className="mt-5 text-sm text-primary-400 font-sfRegular">
+                  <p className="mt-5  text-primary-400 font-sfRegular">
                     Highlights of cases that we passionately <br />
                     built with forward thinking clients and
                     <br /> friends over the year
@@ -71,8 +69,9 @@ const page = () => {
                 <div className="">
                   <VideoComponent
                     videoPathName="/ServiceVid2.mp4"
-                    className="border-[20px] border-secondary-300 w-[42vw]
+                    className="border-[20px] border-secondary-300 w-[38.9vw]
                   h-[90vh] object-cover "
+                    hoverPlay={true}
                   />
 
                   <h3 className="mt-4 text-primary-200 font-cdMedium">
@@ -84,11 +83,11 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="flex gap-7">
+            <div className="flex gap-16 px-20">
               <div className="mt-20">
                 <VideoComponent
                   videoPathName="/ServiceVid2.mp4"
-                  className="border-[20px] border-secondary-100 w-[70vw] h-[90vh]
+                  className="border-[20px] border-secondary-100 w-[39vw] h-[90vh]
                 object-cover  "
                 />
 
@@ -102,7 +101,7 @@ const page = () => {
               <div className=" mt-96">
                 <VideoComponent
                   videoPathName="/ServiceVid1.mp4"
-                  className="border-[20px] w-[60vw] h-[60vh] object-cover  border-secondary-200"
+                  className="border-[20px] w-[39vw] h-[60vh] object-cover  border-secondary-200"
                 />
                 <h3 className=" text-primary-200 font-sfBold mt-4">
                   Viva-
@@ -114,7 +113,7 @@ const page = () => {
             </div>
           </div>
         </section>
-        <section className="mt-24 px-5 ">
+        <section className="mt-24 px-20 ">
           <ServiceForm />
         </section>
       </main>

@@ -16,16 +16,16 @@ import A05Blog from "@/assets/A05Blog.png";
 import LBannerBlog from "@/assets/LBannerBlog.png";
 import TwitterTrend from "@/assets/TwitterTrend.png";
 import NewsLetter from "./components/NewsLetter";
-import Horizontal from "./components/Horizontal";
+// import Horizontal from "./components/Horizontal";
 
 export default function Home() {
   return (
     <>
       <BackgroundImage href="/" videoPath="/HomePage.mp4" />
       {/* <Horizontal direction={-1400} height="40rem"> */}
-      <main>
-        <div className="px-20 ">
-          <h1 className="text-primary-200 text-7xl mt-60 font-cdBold">
+      <main className=" relative z-30">
+        <div className="px-20  ">
+          <h1 className="text-primary-200 text-7xl mt-60 font-cdBold ">
             Elevate Your Digital
             <br /> Presence With GenMz
             <br /> Marketing Experience

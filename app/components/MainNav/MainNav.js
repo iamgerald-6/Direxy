@@ -24,9 +24,10 @@ const MainNav = () => {
           <ul className="text-primary-200 text-sm flex gap-14 font-sfSemiBold">
             <Link href="/">Home</Link>
             <Link href="/About"> Pages</Link>
-            <Link href="/ourservice">Portfolio</Link>
-            <Link href="#">Blog</Link>
-            <Link href="#">Contact</Link>
+            <Link href="/ourservice">Service</Link>
+            <Link href="/portfolio">Portfolio</Link>
+            <Link href="/blog">Blog</Link>
+            <Link href="/contact">Contact</Link>
           </ul>
           <div>
             <Button className="bg-primary-300 text-primary-100 flex text-sm font-sfBold   items-center justify-center px-3 ">

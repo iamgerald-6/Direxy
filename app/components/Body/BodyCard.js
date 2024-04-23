@@ -17,7 +17,7 @@ const BodyCard = () => {
     },
     {
       id: 2,
-      title: "Gen Z Video Production",
+      title: "Gen Z \nVideo \nProduction",
       description:
         'Producing captivating content for broad audience We craft stories and videos for all social channels for better interaction and less "BORING"',
       icon: Icon2,
@@ -31,7 +31,7 @@ const BodyCard = () => {
     },
     {
       id: 4,
-      title: "Strategic Social Media & Marketing",
+      title: "Strategic Social Media & \nMarketing",
       description: "Implementing targeted, impactful social media campaign.",
       icon: Icon4,
     },

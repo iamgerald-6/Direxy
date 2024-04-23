@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="bg-primary-150 text-primary-600 mt-24 px-10 py-3 pt-6">
       <div className="flex justify-evenly items-center text-sm">
         <Image
-          className="w-[10vw] h-auto"
+          className="w-[15vw] h-auto"
           width="200"
           height="200"
           src={Logo}
