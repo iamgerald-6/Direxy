@@ -7,7 +7,11 @@ const All = () => {
     <div className="flex gap-3">
       <div className="flex flex-col items-center gap-4">
         <div className=" w-[28vw]  ">
-          <VideoComponent className="" videoPathName="/Knox.mp4" />
+          <VideoComponent
+            className=""
+            videoPathName="/Knox.mp4"
+            hoverPlay={true}
+          />
           <span className="flex justify-between items-center">
             <h4>Samsung A105 Ad</h4>
             <div className="flex text-primary-400 gap-3 ">
@@ -27,7 +31,7 @@ const All = () => {
           </span>
         </div>
         <div className=" w-[28vw]  ">
-          <VideoComponent hoverPlay={false} lazy videoPathName="/Quick.mp4" />
+          <VideoComponent hoverPlay={true} lazy videoPathName="/Quick.mp4" />
           <span className="flex justify-between items-center">
             <h4>Samsung A105 Ad</h4>
 

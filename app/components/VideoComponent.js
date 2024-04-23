@@ -6,23 +6,16 @@ const VideoComponent = ({
   className,
   videoPathName,
   hoverPlay = false,
-
   ...rest
 }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
-    console.log("Mouse entered");
-    if (hoverPlay) {
-      setIsHovered(true);
-    }
+    setIsHovered((isHovered) => !isHovered);
   };
 
   const handleMouseLeave = () => {
-    console.log("Mouse left");
-    if (hoverPlay) {
-      setIsHovered(false);
-    }
+    setIsHovered((isHovered) => !isHovered);
   };
 
   const videoClasses = cn(className);
@@ -30,8 +23,7 @@ const VideoComponent = ({
   return (
     <video
       src={videoPathName}
-      autoPlay={!hoverPlay || isHovered}
-      lazy
+      autoPlay={isHovered}
       loop
       controls={false}
       onMouseEnter={handleMouseEnter}
