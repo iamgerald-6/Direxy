@@ -6,7 +6,7 @@ import Youtube from "@/assets/icons/Youtube.svg";
 const Footer = () => {
   return (
     <footer className="bg-primary-150 text-primary-600 mt-24 px-10 py-3 pt-6">
-      <div className="flex justify-evenly items-center text-sm">
+      <div className="sm:flex justify-evenly items-center text-sm">
         <Image
           className="w-[15vw] h-auto"
           width="200"
@@ -48,8 +48,8 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className=" px-24 ">
-        <div className="flex border-t justify-between border-primary-200 mt-20 ">
+      <div className=" md:px-24 ">
+        <div className="flex flex-wrap border-t justify-between border-primary-200 mt-20 ">
           <p className="text-xs mt-5 font-sfRegular">
             CopyRight &copy; Breadman.All Rights Reserved Digital-mojo.
           </p>

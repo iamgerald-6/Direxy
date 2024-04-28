@@ -3,7 +3,7 @@ import Blog from "./components/Blog";
 const page = () => {
   return (
     <>
-      <header className=" bg-primary-150 h-[50vh] flex flex-col items-center justify-center">
+      <header className=" bg-primary-150 h-[60vh] flex flex-col items-center justify-center pt-28 pb-10">
         <div className=" bg-primary-100 px-10 py-24 ">
           <div className="text-center">
             <h3 className="text-4xl font-cdBold">Archives</h3>

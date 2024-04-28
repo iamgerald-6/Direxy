@@ -13,7 +13,7 @@ const EmpowerList = () => {
     { id: 3, number: "2.1k", details: "Clients All\nOver The\n World" },
   ];
   return (
-    <div className="grid grid-cols-3 gap-6 mt-4">
+    <div className="grid lg:grid-cols-3 sm:grid-cols-2 lg:gap-6 md:gap-3 gap-3 mt-4">
       {empowerData.map((empower) => (
         <EmpowerRender empower={empower} key={empower.id} />
       ))}

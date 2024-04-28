@@ -23,14 +23,14 @@ export default function Home() {
     <>
       <BackgroundImage href="/" videoPath="/HomePage.mp4" />
       {/* <Horizontal direction={-1400} height="40rem"> */}
-      <main className=" relative z-30">
-        <div className="px-20  ">
-          <h1 className="text-primary-200 text-7xl mt-60 font-cdBold ">
+      <main className=" relative z-10">
+        <div className="md:px-20   ">
+          <h1 className="text-primary-200 lg:text-7xl md:text-5xl sm:text-4xl text-2xl sm:pt-60 pt-72 font-cdBold ">
             Elevate Your Digital
             <br /> Presence With GenMz
             <br /> Marketing Experience
           </h1>
-          <p className="text-primary-200 text-[16px] mt-7 font-sfSemiBold">
+          <p className="text-primary-200 md:text-[16px] sm:text-sm text-[9px] mt-7 font-sfSemiBold">
             With global footprint we are proud to have impacted business
             worldwide, and
             <br /> our passion for innovation drive us to create an even
@@ -41,7 +41,7 @@ export default function Home() {
           <section className="mt-72 ">
             <BodyCard />
           </section>
-          <section className="mt-52 flex  gap-16 ">
+          <section className="mt-52 sm:flex  lg:gap-16 gap-10 ">
             <EmpoweringBody
               title={` Empowering Your
         Digital Success.`}
@@ -77,8 +77,8 @@ export default function Home() {
                   </h3>
                   <Image
                     className="mt-4 w-[35vw] h-auto"
-                    width="700"
-                    height="700"
+                    width="auto"
+                    height="auto"
                     src={LBanner}
                     loading="lazy"
                     alt="LBanner Image"
@@ -90,8 +90,8 @@ export default function Home() {
                   </h3>
                   <Image
                     className="absolute top-32 mt-3 w-[35vw] h-auto"
-                    width="700"
-                    height="700"
+                    width="auto"
+                    height="auto"
                     src={WebUiImage}
                     loading="lazy"
                     alt="Website UI Image"
@@ -105,8 +105,8 @@ export default function Home() {
                   </h3>
                   <Image
                     className="mt-4 w-[35vw] h-auto"
-                    width="700"
-                    height="700"
+                    width="auto"
+                    height="auto"
                     src={Absolute}
                     loading="lazy"
                     alt="Creativity Image"
@@ -118,8 +118,8 @@ export default function Home() {
                   </h3>
                   <Image
                     className="mt-4 w-[35vw] h-auto"
-                    width="700"
-                    height="700"
+                    width="auto"
+                    height="auto"
                     loading="lazy"
                     src={Brand}
                     alt="Brand Image"
@@ -137,8 +137,8 @@ export default function Home() {
             <div>
               <Image
                 className="w-[43vw] h-auto"
-                width="700"
-                height="700"
+                width="auto"
+                height="auto"
                 src={Client}
                 alt="Image"
               />

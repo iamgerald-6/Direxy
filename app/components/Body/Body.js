@@ -4,11 +4,11 @@ import Image from "next/image";
 const Body = () => {
   return (
     <main className="w-[80%]">
-      <h1 className="text-primary-200 text-[43px] font-cdBold leading-none">
+      <h1 className="text-primary-200 sm:text-[43px] text-2xl font-cdBold leading-none">
         Market where Your <br />
         audience Are.
       </h1>
-      <p className="text-primary-400 text-sm mt-7 font-sfRegular">
+      <p className="text-primary-400 sm:text-sm text-xs mt-7 font-sfRegular">
         As we forge ahead we continue to push the boundaries of digital
         possibilities, empowering our clients to thrive in digital era with
         data-driven strategies, stunning designs, and engaging user experience.

@@ -1,6 +1,6 @@
-"use client";
+// "use client";
 import cn from "classnames";
-import { useState } from "react";
+// import { useState } from "react";
 
 const VideoComponent = ({
   className,
@@ -8,26 +8,26 @@ const VideoComponent = ({
   hoverPlay = false,
   ...rest
 }) => {
-  const [isHovered, setIsHovered] = useState(false);
+  // const [isHovered, setIsHovered] = useState(false);
 
-  const handleMouseEnter = () => {
-    setIsHovered((isHovered) => !isHovered);
-  };
+  // const handleMouseEnter = () => {
+  //   setIsHovered((isHovered) => !isHovered);
+  // };
 
-  const handleMouseLeave = () => {
-    setIsHovered((isHovered) => !isHovered);
-  };
+  // const handleMouseLeave = () => {
+  //   setIsHovered((isHovered) => !isHovered);
+  // };
 
   const videoClasses = cn(className);
 
   return (
     <video
       src={videoPathName}
-      autoPlay={isHovered}
+      autoPlay
       loop
       controls={false}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
+      // onMouseEnter={handleMouseEnter}
+      // onMouseLeave={handleMouseLeave}
       className={videoClasses}
       {...rest}
       muted

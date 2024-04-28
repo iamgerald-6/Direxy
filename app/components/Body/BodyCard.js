@@ -51,8 +51,8 @@ const BodyCard = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-4 gap-12   ">
-      <div className="col-span-2">
+    <div className="grid lg:grid-cols-4 lg:gap-12 gap-5   ">
+      <div className="lg:col-span-2 md:col-span-4 sm:col-span-3 ">
         <Body />
       </div>
 

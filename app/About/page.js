@@ -14,7 +14,7 @@ const page = () => {
       <BackgroundImage href="/" videoPath="/AboutPage.mp4" />
       <main className="relative z-20">
         <div className="px-20 ">
-          <h1 className="text-primary-200 text-[70px] leading-none mt-64 font-cdBold">
+          <h1 className="text-primary-200 text-[70px] leading-none pt-64 font-cdBold">
             How The Mojo
             <br /> Magic Started
           </h1>
